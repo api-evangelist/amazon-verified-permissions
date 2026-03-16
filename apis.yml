@@ -1,0 +1,72 @@
+aid: amazon-verified-permissions
+name: Amazon Verified Permissions
+description: >-
+  Amazon Verified Permissions is a scalable, fine-grained permissions management
+  and authorization service for the applications you build. Using Cedar, an
+  expressive and analyzable open-source policy language, it helps developers
+  build secure applications faster by externalizing authorization and centralizing
+  policy management.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Authorization
+  - Permissions
+  - Security
+  - AWS
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: amazon-verified-permissions:amazon-verified-permissions-api
+    name: Amazon Verified Permissions API
+    description: >-
+      The Amazon Verified Permissions API provides programmatic access to manage
+      policy stores, policies, policy templates, identity sources, and schemas.
+      It enables fine-grained authorization using the Cedar policy language,
+      supporting real-time authorization decisions for application resources.
+    humanURL: https://aws.amazon.com/verified-permissions/
+    baseURL: https://verifiedpermissions.amazonaws.com
+    tags:
+      - Authorization
+      - Permissions
+      - Cedar
+      - AWS
+    properties:
+      - type: Documentation
+        url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+      - type: Reference
+        url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+      - type: Getting Started
+        url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+      - type: Pricing
+        url: https://aws.amazon.com/verified-permissions/pricing/
+      - type: FAQ
+        url: https://aws.amazon.com/verified-permissions/faqs/
+common:
+  - type: Portal
+    url: https://aws.amazon.com/
+  - type: Website
+    url: https://aws.amazon.com/verified-permissions/
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: Console
+    url: https://console.aws.amazon.com/verifiedpermissions/
+  - type: Terms of Service
+    url: https://aws.amazon.com/service-terms/
+  - type: Privacy Policy
+    url: https://aws.amazon.com/privacy/
+  - type: Support
+    url: https://aws.amazon.com/premiumsupport/
+  - type: Sign Up
+    url: https://signin.aws.amazon.com/signup?request_type=register
+  - type: Login
+    url: https://aws.amazon.com/console/
+  - type: Status
+    url: https://health.aws.amazon.com/health/status
+  - type: GitHub Organization
+    url: https://github.com/aws
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
