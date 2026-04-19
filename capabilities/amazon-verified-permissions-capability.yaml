@@ -1,0 +1,7 @@
+id: amazon-verified-permissions-capability
+name: Amazon Verified Permissions Capability
+description: Workflow-oriented capability for Amazon Verified Permissions
+tags:
+- AWS
+consumes:
+- ref: capabilities/shared/amazon-verified-permissions-shared.yaml

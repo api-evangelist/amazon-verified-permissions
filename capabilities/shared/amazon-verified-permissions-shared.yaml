@@ -1,0 +1,5 @@
+id: amazon-verified-permissions
+name: Amazon Verified Permissions
+description: Shared capability definition for Amazon Verified Permissions
+namespace: amazon-verified-permissions
+operations: []

@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "amazon_verified_permissions": "https://aws.amazon.com/amazon-verified-permissions/vocab#"
+  }
+}
