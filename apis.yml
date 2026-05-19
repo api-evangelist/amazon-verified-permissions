@@ -1,11 +1,8 @@
 aid: amazon-verified-permissions
 name: Amazon Verified Permissions
-description: >-
-  Amazon Verified Permissions is a scalable, fine-grained permissions management
-  and authorization service for the applications you build. Using Cedar, an
-  expressive and analyzable open-source policy language, it helps developers
-  build secure applications faster by externalizing authorization and centralizing
-  policy management.
+description: Amazon Verified Permissions is a scalable, fine-grained permissions management and authorization service for
+  the applications you build. Using Cedar, an expressive and analyzable open-source policy language, it helps developers build
+  secure applications faster by externalizing authorization and centralizing policy management.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -13,19 +10,16 @@ tags:
 - AWS
 - Permissions
 - Security
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-19'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
 - aid: amazon-verified-permissions:amazon-verified-permissions-api
   name: Amazon Verified Permissions API
-  description: >-
-    The Amazon Verified Permissions API provides programmatic access to manage
-    policy stores, policies, policy templates, identity sources, and schemas.
-    It enables fine-grained authorization using the Cedar policy language,
-    supporting real-time authorization decisions for application resources.
+  description: The Amazon Verified Permissions API provides programmatic access to manage policy stores, policies, policy
+    templates, identity sources, and schemas. It enables fine-grained authorization using the Cedar policy language, supporting
+    real-time authorization decisions for application resources.
   humanURL: https://aws.amazon.com/verified-permissions/
   baseURL: https://verifiedpermissions.amazonaws.com
   tags:
@@ -46,6 +40,8 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: NaftikoCapability
+    url: capabilities/amazon-verified-permissions.yaml
 common:
 - type: Portal
   url: https://aws.amazon.com/
@@ -73,8 +69,6 @@ common:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/rules/amazon-verified-permissions-spectral-rules.yml
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/vocabulary/amazon-verified-permissions-vocabulary.yaml
-- type: NaftikoCapability
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/capabilities/amazon-verified-permissions-capability.yaml
 - type: Features
   data:
   - name: Automation
@@ -88,14 +82,14 @@ common:
 - type: Integrations
   url: https://aws.amazon.com/partners/
 integrations:
-  - name: Partner Programs
-  - name: Resources
-  - name: Success Stories
-  - name: Work with an AWS Partner
-  - name: AWS Marketplace
-  - name: AWS Partner Central
-  - name: Partner Paths
-  - name: co-sell with AWS
+- name: Partner Programs
+- name: Resources
+- name: Success Stories
+- name: Work with an AWS Partner
+- name: AWS Marketplace
+- name: AWS Partner Central
+- name: Partner Paths
+- name: co-sell with AWS
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
