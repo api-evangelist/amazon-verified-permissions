@@ -1,0 +1,520 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "BatchGetPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/BatchGetPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "BatchGetPolicy"
+    },
+    {
+      "info": {
+        "name": "BatchIsAuthorized",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/BatchIsAuthorized",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "BatchIsAuthorized"
+    },
+    {
+      "info": {
+        "name": "BatchIsAuthorizedWithToken",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/BatchIsAuthorizedWithToken",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "BatchIsAuthorizedWithToken"
+    },
+    {
+      "info": {
+        "name": "CreateIdentitySource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/CreateIdentitySource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateIdentitySource"
+    },
+    {
+      "info": {
+        "name": "CreatePolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/CreatePolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreatePolicy"
+    },
+    {
+      "info": {
+        "name": "CreatePolicyStore",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/CreatePolicyStore",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreatePolicyStore"
+    },
+    {
+      "info": {
+        "name": "CreatePolicyStoreAlias",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/CreatePolicyStoreAlias",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreatePolicyStoreAlias"
+    },
+    {
+      "info": {
+        "name": "CreatePolicyTemplate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/CreatePolicyTemplate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreatePolicyTemplate"
+    },
+    {
+      "info": {
+        "name": "DeleteIdentitySource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/DeleteIdentitySource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteIdentitySource"
+    },
+    {
+      "info": {
+        "name": "DeletePolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/DeletePolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeletePolicy"
+    },
+    {
+      "info": {
+        "name": "DeletePolicyStore",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/DeletePolicyStore",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeletePolicyStore"
+    },
+    {
+      "info": {
+        "name": "DeletePolicyStoreAlias",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/DeletePolicyStoreAlias",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeletePolicyStoreAlias"
+    },
+    {
+      "info": {
+        "name": "DeletePolicyTemplate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/DeletePolicyTemplate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeletePolicyTemplate"
+    },
+    {
+      "info": {
+        "name": "GetIdentitySource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/GetIdentitySource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetIdentitySource"
+    },
+    {
+      "info": {
+        "name": "GetPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/GetPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetPolicy"
+    },
+    {
+      "info": {
+        "name": "GetPolicyStore",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/GetPolicyStore",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetPolicyStore"
+    },
+    {
+      "info": {
+        "name": "GetPolicyStoreAlias",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/GetPolicyStoreAlias",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetPolicyStoreAlias"
+    },
+    {
+      "info": {
+        "name": "GetPolicyTemplate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/GetPolicyTemplate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetPolicyTemplate"
+    },
+    {
+      "info": {
+        "name": "GetSchema",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/GetSchema",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetSchema"
+    },
+    {
+      "info": {
+        "name": "IsAuthorized",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/IsAuthorized",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "IsAuthorized"
+    },
+    {
+      "info": {
+        "name": "IsAuthorizedWithToken",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/IsAuthorizedWithToken",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "IsAuthorizedWithToken"
+    },
+    {
+      "info": {
+        "name": "ListIdentitySources",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/ListIdentitySources",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListIdentitySources"
+    },
+    {
+      "info": {
+        "name": "ListPolicies",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/ListPolicies",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListPolicies"
+    },
+    {
+      "info": {
+        "name": "ListPolicyStoreAliases",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/ListPolicyStoreAliases",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListPolicyStoreAliases"
+    },
+    {
+      "info": {
+        "name": "ListPolicyStores",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/ListPolicyStores",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListPolicyStores"
+    },
+    {
+      "info": {
+        "name": "ListPolicyTemplates",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/ListPolicyTemplates",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListPolicyTemplates"
+    },
+    {
+      "info": {
+        "name": "ListTagsForResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/ListTagsForResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListTagsForResource"
+    },
+    {
+      "info": {
+        "name": "PutSchema",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/PutSchema",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "PutSchema"
+    },
+    {
+      "info": {
+        "name": "TagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/TagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "TagResource"
+    },
+    {
+      "info": {
+        "name": "UntagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/UntagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UntagResource"
+    },
+    {
+      "info": {
+        "name": "UpdateIdentitySource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/UpdateIdentitySource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateIdentitySource"
+    },
+    {
+      "info": {
+        "name": "UpdatePolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/UpdatePolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdatePolicy"
+    },
+    {
+      "info": {
+        "name": "UpdatePolicyStore",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/UpdatePolicyStore",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdatePolicyStore"
+    },
+    {
+      "info": {
+        "name": "UpdatePolicyTemplate",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://verifiedpermissions.amazonaws.com/UpdatePolicyTemplate",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdatePolicyTemplate"
+    }
+  ],
+  "bundled": true
+}
