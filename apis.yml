@@ -5,7 +5,7 @@ description: >-
   applications you build. Using Cedar, an expressive and analyzable open-source policy language, it helps developers
   build secure applications faster by externalizing authorization and centralizing policy management.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Authorization
   - AWS
