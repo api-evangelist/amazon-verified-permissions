@@ -43,6 +43,8 @@ apis:
       - type: FAQ
         url: https://aws.amazon.com/verified-permissions/faqs/
 common:
+  - type: AgenticAccess
+    url: agentic-access/amazon-verified-permissions-agentic-access.yml
   - type: TrustCenter
     url: security/amazon-verified-permissions-trust-center.yml
   - type: VulnerabilityDisclosure
