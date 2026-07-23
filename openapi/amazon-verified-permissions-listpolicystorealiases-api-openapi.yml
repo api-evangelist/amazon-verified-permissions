@@ -1,0 +1,30 @@
+openapi: 3.1.0
+info:
+  title: Amazon Verified Permissions BatchGetPolicy ListPolicyStoreAliases API
+  version: 1.0.0
+  description: Minimal OpenAPI representation of the Amazon Verified Permissions API. Operations follow the AWS RPC-over-HTTP convention.
+servers:
+- url: https://verifiedpermissions.amazonaws.com
+tags:
+- name: ListPolicyStoreAliases
+paths:
+  /ListPolicyStoreAliases:
+    post:
+      summary: ListPolicyStoreAliases
+      operationId: ListPolicyStoreAliases
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - ListPolicyStoreAliases
+x-generated-from: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+x-generated-by: claude-crawl-2026-05-08
