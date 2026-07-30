@@ -5,7 +5,19 @@ description: >-
   applications you build. Using Cedar, an expressive and analyzable open-source policy language, it helps developers
   build secure applications faster by externalizing authorization and centralizing policy management.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-verified-permissions.png
 tags:
   - Authorization
   - AWS
@@ -16,32 +28,711 @@ created: '2026-03-16'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: amazon-verified-permissions:amazon-verified-permissions-api
-    name: Amazon Verified Permissions API
-    description: >-
-      The Amazon Verified Permissions API provides programmatic access to manage policy stores, policies, policy
-      templates, identity sources, and schemas. It enables fine-grained authorization using the Cedar policy language,
-      supporting real-time authorization decisions for application resources.
-    humanURL: https://aws.amazon.com/verified-permissions/
-    baseURL: https://verifiedpermissions.amazonaws.com
-    tags:
-      - Authorization
-      - AWS
-      - Cedar
-      - Permissions
-    properties:
-      - url: openapi/amazon-verified-permissions-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
-      - type: APIReference
-        url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
-      - type: GettingStarted
-        url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
-      - type: Pricing
-        url: https://aws.amazon.com/verified-permissions/pricing/
-      - type: FAQ
-        url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-batchgetpolicy-api
+  name: Amazon Verified Permissions BatchGetPolicy API
+  description: >-
+    The BatchGetPolicy API from Amazon Verified Permissions — 1 operation(s) for batchgetpolicy.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - BatchGetPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-batchgetpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-batchisauthorized-api
+  name: Amazon Verified Permissions BatchIsAuthorized API
+  description: >-
+    The BatchIsAuthorized API from Amazon Verified Permissions — 1 operation(s) for batchisauthorized.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - BatchIsAuthorized
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-batchisauthorized-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-batchisauthorizedwithtoken-api
+  name: Amazon Verified Permissions BatchIsAuthorizedWithToken API
+  description: >-
+    The BatchIsAuthorizedWithToken API from Amazon Verified Permissions — 1 operation(s) for batchisauthorizedwithtoken.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - BatchIsAuthorizedWithToken
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-batchisauthorizedwithtoken-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-createidentitysource-api
+  name: Amazon Verified Permissions CreateIdentitySource API
+  description: >-
+    The CreateIdentitySource API from Amazon Verified Permissions — 1 operation(s) for createidentitysource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - CreateIdentitySource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-createidentitysource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-createpolicy-api
+  name: Amazon Verified Permissions CreatePolicy API
+  description: The CreatePolicy API from Amazon Verified Permissions — 1 operation(s) for createpolicy.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - CreatePolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-createpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-createpolicystore-api
+  name: Amazon Verified Permissions CreatePolicyStore API
+  description: >-
+    The CreatePolicyStore API from Amazon Verified Permissions — 1 operation(s) for createpolicystore.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - CreatePolicyStore
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-createpolicystore-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-createpolicystorealias-api
+  name: Amazon Verified Permissions CreatePolicyStoreAlias API
+  description: >-
+    The CreatePolicyStoreAlias API from Amazon Verified Permissions — 1 operation(s) for createpolicystorealias.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - CreatePolicyStoreAlias
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-createpolicystorealias-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-createpolicytemplate-api
+  name: Amazon Verified Permissions CreatePolicyTemplate API
+  description: >-
+    The CreatePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for createpolicytemplate.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - CreatePolicyTemplate
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-createpolicytemplate-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-deleteidentitysource-api
+  name: Amazon Verified Permissions DeleteIdentitySource API
+  description: >-
+    The DeleteIdentitySource API from Amazon Verified Permissions — 1 operation(s) for deleteidentitysource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - DeleteIdentitySource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-deleteidentitysource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicy-api
+  name: Amazon Verified Permissions DeletePolicy API
+  description: The DeletePolicy API from Amazon Verified Permissions — 1 operation(s) for deletepolicy.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - DeletePolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-deletepolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicystore-api
+  name: Amazon Verified Permissions DeletePolicyStore API
+  description: >-
+    The DeletePolicyStore API from Amazon Verified Permissions — 1 operation(s) for deletepolicystore.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - DeletePolicyStore
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-deletepolicystore-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicystorealias-api
+  name: Amazon Verified Permissions DeletePolicyStoreAlias API
+  description: >-
+    The DeletePolicyStoreAlias API from Amazon Verified Permissions — 1 operation(s) for deletepolicystorealias.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - DeletePolicyStoreAlias
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-deletepolicystorealias-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicytemplate-api
+  name: Amazon Verified Permissions DeletePolicyTemplate API
+  description: >-
+    The DeletePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for deletepolicytemplate.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - DeletePolicyTemplate
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-deletepolicytemplate-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-getidentitysource-api
+  name: Amazon Verified Permissions GetIdentitySource API
+  description: >-
+    The GetIdentitySource API from Amazon Verified Permissions — 1 operation(s) for getidentitysource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - GetIdentitySource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-getidentitysource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-getpolicy-api
+  name: Amazon Verified Permissions GetPolicy API
+  description: The GetPolicy API from Amazon Verified Permissions — 1 operation(s) for getpolicy.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - GetPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-getpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-getpolicystore-api
+  name: Amazon Verified Permissions GetPolicyStore API
+  description: >-
+    The GetPolicyStore API from Amazon Verified Permissions — 1 operation(s) for getpolicystore.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - GetPolicyStore
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-getpolicystore-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-getpolicystorealias-api
+  name: Amazon Verified Permissions GetPolicyStoreAlias API
+  description: >-
+    The GetPolicyStoreAlias API from Amazon Verified Permissions — 1 operation(s) for getpolicystorealias.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - GetPolicyStoreAlias
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-getpolicystorealias-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-getpolicytemplate-api
+  name: Amazon Verified Permissions GetPolicyTemplate API
+  description: >-
+    The GetPolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for getpolicytemplate.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - GetPolicyTemplate
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-getpolicytemplate-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-getschema-api
+  name: Amazon Verified Permissions GetSchema API
+  description: The GetSchema API from Amazon Verified Permissions — 1 operation(s) for getschema.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - GetSchema
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-getschema-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-isauthorized-api
+  name: Amazon Verified Permissions IsAuthorized API
+  description: The IsAuthorized API from Amazon Verified Permissions — 1 operation(s) for isauthorized.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - IsAuthorized
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-isauthorized-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-isauthorizedwithtoken-api
+  name: Amazon Verified Permissions IsAuthorizedWithToken API
+  description: >-
+    The IsAuthorizedWithToken API from Amazon Verified Permissions — 1 operation(s) for isauthorizedwithtoken.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - IsAuthorizedWithToken
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-isauthorizedwithtoken-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-listidentitysources-api
+  name: Amazon Verified Permissions ListIdentitySources API
+  description: >-
+    The ListIdentitySources API from Amazon Verified Permissions — 1 operation(s) for listidentitysources.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - ListIdentitySources
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-listidentitysources-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-listpolicies-api
+  name: Amazon Verified Permissions ListPolicies API
+  description: The ListPolicies API from Amazon Verified Permissions — 1 operation(s) for listpolicies.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - ListPolicies
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-listpolicies-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-listpolicystorealiases-api
+  name: Amazon Verified Permissions ListPolicyStoreAliases API
+  description: >-
+    The ListPolicyStoreAliases API from Amazon Verified Permissions — 1 operation(s) for listpolicystorealiases.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - ListPolicyStoreAliases
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-listpolicystorealiases-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-listpolicystores-api
+  name: Amazon Verified Permissions ListPolicyStores API
+  description: >-
+    The ListPolicyStores API from Amazon Verified Permissions — 1 operation(s) for listpolicystores.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - ListPolicyStores
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-listpolicystores-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-listpolicytemplates-api
+  name: Amazon Verified Permissions ListPolicyTemplates API
+  description: >-
+    The ListPolicyTemplates API from Amazon Verified Permissions — 1 operation(s) for listpolicytemplates.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - ListPolicyTemplates
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-listpolicytemplates-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-listtagsforresource-api
+  name: Amazon Verified Permissions ListTagsForResource API
+  description: >-
+    The ListTagsForResource API from Amazon Verified Permissions — 1 operation(s) for listtagsforresource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - ListTagsForResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-listtagsforresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-putschema-api
+  name: Amazon Verified Permissions PutSchema API
+  description: The PutSchema API from Amazon Verified Permissions — 1 operation(s) for putschema.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - PutSchema
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-putschema-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-tagresource-api
+  name: Amazon Verified Permissions TagResource API
+  description: The TagResource API from Amazon Verified Permissions — 1 operation(s) for tagresource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - TagResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-tagresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-untagresource-api
+  name: Amazon Verified Permissions UntagResource API
+  description: >-
+    The UntagResource API from Amazon Verified Permissions — 1 operation(s) for untagresource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - UntagResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-untagresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-updateidentitysource-api
+  name: Amazon Verified Permissions UpdateIdentitySource API
+  description: >-
+    The UpdateIdentitySource API from Amazon Verified Permissions — 1 operation(s) for updateidentitysource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - UpdateIdentitySource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-updateidentitysource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-updatepolicy-api
+  name: Amazon Verified Permissions UpdatePolicy API
+  description: The UpdatePolicy API from Amazon Verified Permissions — 1 operation(s) for updatepolicy.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - UpdatePolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-updatepolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-updatepolicystore-api
+  name: Amazon Verified Permissions UpdatePolicyStore API
+  description: >-
+    The UpdatePolicyStore API from Amazon Verified Permissions — 1 operation(s) for updatepolicystore.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - UpdatePolicyStore
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-updatepolicystore-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-updatepolicytemplate-api
+  name: Amazon Verified Permissions UpdatePolicyTemplate API
+  description: >-
+    The UpdatePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for updatepolicytemplate.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - UpdatePolicyTemplate
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-updatepolicytemplate-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
 common:
   - type: AgenticAccess
     url: agentic-access/amazon-verified-permissions-agentic-access.yml
