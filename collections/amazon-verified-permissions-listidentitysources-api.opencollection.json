@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy ListIdentitySources API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListIdentitySources",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListIdentitySources",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/ListIdentitySources",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListIdentitySources"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

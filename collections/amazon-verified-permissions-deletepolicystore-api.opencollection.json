@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy DeletePolicyStore API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeletePolicyStore",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeletePolicyStore",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/DeletePolicyStore",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeletePolicyStore"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy IsAuthorizedWithToken API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "IsAuthorizedWithToken",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "IsAuthorizedWithToken",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/IsAuthorizedWithToken",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "IsAuthorizedWithToken"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

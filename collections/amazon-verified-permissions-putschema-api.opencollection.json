@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy PutSchema API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "PutSchema",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "PutSchema",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/PutSchema",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "PutSchema"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

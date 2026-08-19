@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy UpdatePolicyTemplate API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdatePolicyTemplate",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdatePolicyTemplate",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/UpdatePolicyTemplate",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdatePolicyTemplate"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

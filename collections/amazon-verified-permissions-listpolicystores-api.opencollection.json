@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy ListPolicyStores API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListPolicyStores",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListPolicyStores",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/ListPolicyStores",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListPolicyStores"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

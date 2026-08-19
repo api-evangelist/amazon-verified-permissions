@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy UpdatePolicyStore API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdatePolicyStore",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdatePolicyStore",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/UpdatePolicyStore",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdatePolicyStore"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

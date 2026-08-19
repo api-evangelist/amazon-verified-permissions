@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy CreatePolicyStore API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreatePolicyStore",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreatePolicyStore",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/CreatePolicyStore",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreatePolicyStore"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

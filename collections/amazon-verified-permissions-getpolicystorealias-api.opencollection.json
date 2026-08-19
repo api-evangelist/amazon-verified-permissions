@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy GetPolicyStoreAlias API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetPolicyStoreAlias",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetPolicyStoreAlias",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/GetPolicyStoreAlias",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetPolicyStoreAlias"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

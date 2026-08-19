@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy DeletePolicyStoreAlias API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeletePolicyStoreAlias",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeletePolicyStoreAlias",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/DeletePolicyStoreAlias",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeletePolicyStoreAlias"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy DeletePolicyTemplate API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeletePolicyTemplate",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeletePolicyTemplate",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/DeletePolicyTemplate",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeletePolicyTemplate"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

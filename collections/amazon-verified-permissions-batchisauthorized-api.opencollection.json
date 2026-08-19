@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy BatchIsAuthorized API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "BatchIsAuthorized",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "BatchIsAuthorized",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/BatchIsAuthorized",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "BatchIsAuthorized"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Verified Permissions BatchGetPolicy GetPolicyTemplate API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetPolicyTemplate",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetPolicyTemplate",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://verifiedpermissions.amazonaws.com/GetPolicyTemplate",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetPolicyTemplate"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
