@@ -5,6 +5,18 @@ description: >-
   applications you build. Using Cedar, an expressive and analyzable open-source policy language, it helps developers
   build secure applications faster by externalizing authorization and centralizing policy management.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
