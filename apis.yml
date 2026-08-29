@@ -746,6 +746,9 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
 common:
+  - type: CapabilityMap
+    url: capabilities/amazon-verified-permissions-capability-edges.yml
+    name: Amazon Verified Permissions Business Capability Map
   - type: AgenticAccess
     url: agentic-access/amazon-verified-permissions-agentic-access.yml
   - type: TrustCenter

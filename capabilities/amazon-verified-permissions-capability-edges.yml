@@ -1,0 +1,246 @@
+slug: amazon-verified-permissions
+provider: Amazon Verified Permissions
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 25
+edges:
+- tag: IsAuthorized
+  spec_file: amazon-verified-permissions-isauthorized-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.9
+  evidence: POST /IsAuthorized — "authorization service for the applications you build"
+  reason: Runtime authorization decision endpoint; core access management.
+- tag: IsAuthorizedWithToken
+  spec_file: amazon-verified-permissions-isauthorizedwithtoken-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.9
+  evidence: POST /IsAuthorizedWithToken — "externalizing authorization and centralizing policy management"
+  reason: Token-based authorization decision (identity token from an IdP evaluated against policies);
+    squarely Identity & Access Management.
+- tag: CreatePolicy
+  spec_file: amazon-verified-permissions-createpolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.85
+  evidence: 'POST /CreatePolicy — vendor: "externalizing authorization and centralizing policy management"
+    using Cedar'
+  reason: Creates a Cedar authorization policy granting/denying principals access to resources — access
+    management, not corporate policy management (BC-130.20 would be a homograph error).
+- tag: DeletePolicy
+  spec_file: amazon-verified-permissions-deletepolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.85
+  evidence: POST /DeletePolicy — "externalizing authorization and centralizing policy management"
+  reason: Removes an authorization policy governing access decisions; access management rather than corporate
+    policy lifecycle.
+- tag: ListIdentitySources
+  spec_file: amazon-verified-permissions-listidentitysources-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.85
+  evidence: POST /ListIdentitySources
+  reason: Identity source (identity-provider) configuration listing for authorization; federation/identity
+    management.
+- tag: GetPolicy
+  spec_file: amazon-verified-permissions-getpolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.82
+  evidence: POST /GetPolicy — Cedar policies for "externalizing authorization"
+  reason: Retrieves an authorization policy defining permitted access; access management surface.
+- tag: UpdatePolicy
+  spec_file: amazon-verified-permissions-updatepolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.82
+  evidence: 'POST /UpdatePolicy — vendor: "Using Cedar, an expressive and analyzable open-source policy
+    language ... externalizing authorization"'
+  reason: Policy here is an authorization (access-control) policy in Cedar, not a corporate policy document,
+    so it maps to Identity & Access Management rather than BC-130.20 Policy Management.
+- tag: BatchIsAuthorized
+  spec_file: amazon-verified-permissions-batchisauthorized-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: 'POST /BatchIsAuthorized  BatchIsAuthorized; vendor: "scalable, fine-grained permissions management
+    and authorization service for the applications you build"'
+  reason: Evaluates authorization decisions (principal/action/resource) against policies — runtime access
+    control, squarely Identity & Access Management. Some ambiguity only about whether it is better read
+    as entitlement enforcement.
+- tag: BatchIsAuthorizedWithToken
+  spec_file: amazon-verified-permissions-batchisauthorizedwithtoken-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: 'POST /BatchIsAuthorizedWithToken  BatchIsAuthorizedWithToken; vendor: "externalizing authorization
+    and centralizing policy management"'
+  reason: Makes batch authorization decisions using an identity-provider token (federated identity), i.e.
+    access decisions based on federated user identity — Identity & Access Management.
+- tag: CreateIdentitySource
+  spec_file: amazon-verified-permissions-createidentitysource-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /CreateIdentitySource — "fine-grained permissions management and authorization service"
+  reason: An identity source in Verified Permissions registers an external identity provider (e.g. Cognito
+    user pool) whose principals are authorized; this is identity federation/access management plumbing,
+    mapped to Identity & Access Management.
+- tag: DeleteIdentitySource
+  spec_file: amazon-verified-permissions-deleteidentitysource-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /DeleteIdentitySource — "fine-grained permissions management and authorization service"
+  reason: Lifecycle of a federated identity provider configuration used to authorize principals — Identity
+    & Access Management.
+- tag: GetPolicyStore
+  spec_file: amazon-verified-permissions-getpolicystore-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /GetPolicyStore — "fine-grained permissions management and authorization service"
+  reason: Retrieval of an authorization policy store in a permissions/authorization service; this is access-management
+    plumbing realising Identity & Access Management, not any industry business capability.
+- tag: GetPolicyTemplate
+  spec_file: amazon-verified-permissions-getpolicytemplate-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /GetPolicyTemplate — "centralizing policy management" with Cedar policy language
+  reason: Authorization policy template retrieval; part of externalised access-control policy management,
+    i.e. IAM.
+- tag: ListPolicies
+  spec_file: amazon-verified-permissions-listpolicies-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /ListPolicies — Cedar "policy language ... centralizing policy management"
+  reason: Listing authorization policies; access-control policy management rather than corporate policy
+    management.
+- tag: ListPolicyStores
+  spec_file: amazon-verified-permissions-listpolicystores-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /ListPolicyStores — "permissions management and authorization service"
+  reason: Enumerating authorization policy stores; part of centralised access-policy management.
+- tag: ListPolicyTemplates
+  spec_file: amazon-verified-permissions-listpolicytemplates-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /ListPolicyTemplates
+  reason: Listing reusable authorization policy templates; access-control policy management.
+- tag: UpdateIdentitySource
+  spec_file: amazon-verified-permissions-updateidentitysource-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.8
+  evidence: POST /UpdateIdentitySource  UpdateIdentitySource
+  reason: An identity source in Verified Permissions is the connected identity provider (e.g. Cognito
+    user pool) whose principals are evaluated in authorization decisions; configuring it is identity federation
+    / access management. Vendor description confirms the service is for "fine-grained permissions management
+    and authorization".
+- tag: CreatePolicyTemplate
+  spec_file: amazon-verified-permissions-createpolicytemplate-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.78
+  evidence: POST /CreatePolicyTemplate — Cedar "policy language" for authorization
+  reason: Templates for parameterised authorization policies; supports access-permission definition and
+    enforcement.
+- tag: GetIdentitySource
+  spec_file: amazon-verified-permissions-getidentitysource-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.78
+  evidence: POST /GetIdentitySource — "fine-grained permissions management and authorization service"
+  reason: Reads the configured identity provider used to identify principals for authorization decisions
+    — Identity & Access Management.
+- tag: BatchGetPolicy
+  spec_file: amazon-verified-permissions-batchgetpolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: 'vendor: "fine-grained permissions management and authorization service" ... "externalizing
+    authorization and centralizing policy management"; POST /BatchGetPolicy'
+  reason: Retrieves Cedar authorization policies from policy stores; this is the policy administration
+    side of an access-management service, which maps to Identity & Access Management. Confidence tempered
+    because the tag exposes only a batch read operation with no schema detail.
+- tag: CreatePolicyStore
+  spec_file: amazon-verified-permissions-createpolicystore-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: POST /CreatePolicyStore — "centralizing policy management" for authorization
+  reason: A policy store is the container for authorization policies and schema; part of externalized
+    authorization / access management.
+- tag: DeletePolicyStore
+  spec_file: amazon-verified-permissions-deletepolicystore-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: POST /DeletePolicyStore — "centralizing policy management"
+  reason: Lifecycle of the container holding authorization policies for an application; part of access
+    management configuration.
+- tag: DeletePolicyTemplate
+  spec_file: amazon-verified-permissions-deletepolicytemplate-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: POST /DeletePolicyTemplate — Cedar "policy language" for authorization
+  reason: Lifecycle of parameterised authorization policy templates within the permissions service.
+- tag: UpdatePolicyStore
+  spec_file: amazon-verified-permissions-updatepolicystore-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: POST /UpdatePolicyStore — "centralizing policy management" for authorization
+  reason: The policy store is the container holding Cedar authorization policies; updating it configures
+    the access-authorization service. Slightly lower confidence as the operation is a container-level
+    administrative action.
+- tag: UpdatePolicyTemplate
+  spec_file: amazon-verified-permissions-updatepolicytemplate-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.75
+  evidence: POST /UpdatePolicyTemplate — Cedar "policy language ... externalizing authorization"
+  reason: Policy templates are parameterised authorization policies used to grant access at scale, so
+    this is access-control policy administration under Identity & Access Management.
