@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Amazon Verified Permissions BatchGetPolicy UpdatePolicyTemplate API
+  title: Amazon Verified Permissions BatchGetPolicy Update Policy Template API
   version: 1.0.0
   description: Minimal OpenAPI representation of the Amazon Verified Permissions API. Operations follow the AWS RPC-over-HTTP convention.
 servers:
