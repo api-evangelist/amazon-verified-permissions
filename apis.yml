@@ -580,27 +580,6 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
-- aid: amazon-verified-permissions:amazon-verified-permissions-listtagsforresource-api
-  name: Amazon Verified Permissions ListTagsForResource API
-  description: >-
-    The ListTagsForResource API from Amazon Verified Permissions — 1 operation(s) for listtagsforresource.
-  humanURL: https://aws.amazon.com/verified-permissions/
-  baseURL: https://verifiedpermissions.amazonaws.com
-  tags:
-  - ListTagsForResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-verified-permissions-listtagsforresource-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/verified-permissions/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/verified-permissions/faqs/
 - aid: amazon-verified-permissions:amazon-verified-permissions-putschema-api
   name: Amazon Verified Permissions PutSchema API
   description: The PutSchema API from Amazon Verified Permissions — 1 operation(s) for putschema.
@@ -611,47 +590,6 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/amazon-verified-permissions-putschema-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/verified-permissions/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/verified-permissions/faqs/
-- aid: amazon-verified-permissions:amazon-verified-permissions-tagresource-api
-  name: Amazon Verified Permissions TagResource API
-  description: The TagResource API from Amazon Verified Permissions — 1 operation(s) for tagresource.
-  humanURL: https://aws.amazon.com/verified-permissions/
-  baseURL: https://verifiedpermissions.amazonaws.com
-  tags:
-  - TagResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-verified-permissions-tagresource-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
-  - type: APIReference
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
-  - type: GettingStarted
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
-  - type: Pricing
-    url: https://aws.amazon.com/verified-permissions/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/verified-permissions/faqs/
-- aid: amazon-verified-permissions:amazon-verified-permissions-untagresource-api
-  name: Amazon Verified Permissions UntagResource API
-  description: >-
-    The UntagResource API from Amazon Verified Permissions — 1 operation(s) for untagresource.
-  humanURL: https://aws.amazon.com/verified-permissions/
-  baseURL: https://verifiedpermissions.amazonaws.com
-  tags:
-  - UntagResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-verified-permissions-untagresource-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
   - type: APIReference
@@ -735,6 +673,69 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/amazon-verified-permissions-updatepolicytemplate-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-list-tags-for-resource-api
+  name: Amazon Verified Permissions List Tags For Resource API
+  description: >-
+    The List Tags For Resource API from Amazon Verified Permissions — 1 operation(s) for list tags for
+    resource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - List Tags For Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-list-tags-for-resource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-tag-resource-api
+  name: Amazon Verified Permissions Tag Resource API
+  description: The Tag Resource API from Amazon Verified Permissions — 1 operation(s) for tag resource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - Tag Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-tag-resource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/verified-permissions/faqs/
+- aid: amazon-verified-permissions:amazon-verified-permissions-untag-resource-api
+  name: Amazon Verified Permissions Untag Resource API
+  description: >-
+    The Untag Resource API from Amazon Verified Permissions — 1 operation(s) for untag resource.
+  humanURL: https://aws.amazon.com/verified-permissions/
+  baseURL: https://verifiedpermissions.amazonaws.com
+  tags:
+  - Untag Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-verified-permissions-untag-resource-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
   - type: APIReference
