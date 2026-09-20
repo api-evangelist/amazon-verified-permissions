@@ -747,6 +747,8 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
 common:
+  - type: Plans
+    url: plans/amazon-verified-permissions-plans-pricing.yml
   - type: CapabilityMap
     url: capabilities/amazon-verified-permissions-capability-edges.yml
     name: Amazon Verified Permissions Business Capability Map
