@@ -10,6 +10,10 @@ provenance:
   grounding: every price_text was found verbatim in the fetched page text
 audience: developer-api
 pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-09-20'
 published: true
 note: Same pricing for all Regions; pay-as-you-go per API call with tiered batch authorization pricing.
 plan_count: 5
