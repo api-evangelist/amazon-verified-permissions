@@ -747,6 +747,8 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
 common:
+  - type: Pricing
+    url: https://aws.amazon.com/verified-permissions/pricing/
   - type: Plans
     url: plans/amazon-verified-permissions-plans-pricing.yml
   - type: CapabilityMap
