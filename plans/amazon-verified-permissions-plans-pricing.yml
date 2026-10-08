@@ -54,3 +54,51 @@ plans:
   unit: policy management request
 rate_limit_statements:
 - There is no minimum number of requests that a customer must make to use Amazon Verified Permissions.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - request
+  plans:
+  - name: Single Authorization Request
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Batch authorization requests – First 40 million requests per month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Batch authorization requests – Next 60 million requests per month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Batch authorization requests – More than 100 million requests per month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Policy management request
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
