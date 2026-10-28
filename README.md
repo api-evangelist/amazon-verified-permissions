@@ -1,4 +1,4 @@
-# Amazon Verified Permissions (amazon-verified-permissions)
+# Amazon Verified Permissions
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,71 +66,204 @@
 
 Amazon Verified Permissions is a scalable, fine-grained permissions management and authorization service for the applications you build. Using Cedar, an expressive and analyzable open-source policy language, it helps developers build secure applications faster by externalizing authorization and centralizing policy management.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml)
+**Areas:** Authorization · AWS · Permissions · Security
 
-## Scope
+## Amazon Verified Permissions on APIs.io
 
-- **Type:** Index
+Everything profiled for Amazon Verified Permissions is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amazon-verified-permissions/](https://apis.io/providers/amazon-verified-permissions/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (34)
 
-- Authorization
-- AWS
-- Permissions
-- Security
+- [Amazon Verified Permissions BatchGetPolicy API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-batchgetpolicy-api/) — The BatchGetPolicy API from Amazon Verified Permissions — 1 operation(s) for batchgetpolicy.
+- [Amazon Verified Permissions BatchIsAuthorized API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-batchisauthorized-api/) — The BatchIsAuthorized API from Amazon Verified Permissions — 1 operation(s) for batchisauthorized.
+- [Amazon Verified Permissions BatchIsAuthorizedWithToken API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-batchisauthorizedwithtoken-api/) — The BatchIsAuthorizedWithToken API from Amazon Verified Permissions — 1 operation(s) for batchisauthorizedwithtoken.
+- [Amazon Verified Permissions CreateIdentitySource API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-createidentitysource-api/) — The CreateIdentitySource API from Amazon Verified Permissions — 1 operation(s) for createidentitysource.
+- [Amazon Verified Permissions CreatePolicy API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-createpolicy-api/) — The CreatePolicy API from Amazon Verified Permissions — 1 operation(s) for createpolicy.
+- [Amazon Verified Permissions CreatePolicyStore API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-createpolicystore-api/) — The CreatePolicyStore API from Amazon Verified Permissions — 1 operation(s) for createpolicystore.
+- [Amazon Verified Permissions CreatePolicyStoreAlias API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-createpolicystorealias-api/) — The CreatePolicyStoreAlias API from Amazon Verified Permissions — 1 operation(s) for createpolicystorealias.
+- [Amazon Verified Permissions CreatePolicyTemplate API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-createpolicytemplate-api/) — The CreatePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for createpolicytemplate.
+- [Amazon Verified Permissions DeleteIdentitySource API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-deleteidentitysource-api/) — The DeleteIdentitySource API from Amazon Verified Permissions — 1 operation(s) for deleteidentitysource.
+- [Amazon Verified Permissions DeletePolicy API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-deletepolicy-api/) — The DeletePolicy API from Amazon Verified Permissions — 1 operation(s) for deletepolicy.
+- [Amazon Verified Permissions DeletePolicyStore API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-deletepolicystore-api/) — The DeletePolicyStore API from Amazon Verified Permissions — 1 operation(s) for deletepolicystore.
+- [Amazon Verified Permissions DeletePolicyStoreAlias API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-deletepolicystorealias-api/) — The DeletePolicyStoreAlias API from Amazon Verified Permissions — 1 operation(s) for deletepolicystorealias.
+- [Amazon Verified Permissions DeletePolicyTemplate API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-deletepolicytemplate-api/) — The DeletePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for deletepolicytemplate.
+- [Amazon Verified Permissions GetIdentitySource API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-getidentitysource-api/) — The GetIdentitySource API from Amazon Verified Permissions — 1 operation(s) for getidentitysource.
+- [Amazon Verified Permissions GetPolicy API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-getpolicy-api/) — The GetPolicy API from Amazon Verified Permissions — 1 operation(s) for getpolicy.
+- [Amazon Verified Permissions GetPolicyStore API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-getpolicystore-api/) — The GetPolicyStore API from Amazon Verified Permissions — 1 operation(s) for getpolicystore.
+- [Amazon Verified Permissions GetPolicyStoreAlias API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-getpolicystorealias-api/) — The GetPolicyStoreAlias API from Amazon Verified Permissions — 1 operation(s) for getpolicystorealias.
+- [Amazon Verified Permissions GetPolicyTemplate API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-getpolicytemplate-api/) — The GetPolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for getpolicytemplate.
+- [Amazon Verified Permissions GetSchema API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-getschema-api/) — The GetSchema API from Amazon Verified Permissions — 1 operation(s) for getschema.
+- [Amazon Verified Permissions IsAuthorized API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-isauthorized-api/) — The IsAuthorized API from Amazon Verified Permissions — 1 operation(s) for isauthorized.
+- [Amazon Verified Permissions IsAuthorizedWithToken API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-isauthorizedwithtoken-api/) — The IsAuthorizedWithToken API from Amazon Verified Permissions — 1 operation(s) for isauthorizedwithtoken.
+- [Amazon Verified Permissions ListIdentitySources API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-listidentitysources-api/) — The ListIdentitySources API from Amazon Verified Permissions — 1 operation(s) for listidentitysources.
+- [Amazon Verified Permissions ListPolicies API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-listpolicies-api/) — The ListPolicies API from Amazon Verified Permissions — 1 operation(s) for listpolicies.
+- [Amazon Verified Permissions ListPolicyStoreAliases API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-listpolicystorealiases-api/) — The ListPolicyStoreAliases API from Amazon Verified Permissions — 1 operation(s) for listpolicystorealiases.
+- [Amazon Verified Permissions ListPolicyStores API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-listpolicystores-api/) — The ListPolicyStores API from Amazon Verified Permissions — 1 operation(s) for listpolicystores.
+- [Amazon Verified Permissions ListPolicyTemplates API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-listpolicytemplates-api/) — The ListPolicyTemplates API from Amazon Verified Permissions — 1 operation(s) for listpolicytemplates.
+- [Amazon Verified Permissions PutSchema API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-putschema-api/) — The PutSchema API from Amazon Verified Permissions — 1 operation(s) for putschema.
+- [Amazon Verified Permissions UpdateIdentitySource API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-updateidentitysource-api/) — The UpdateIdentitySource API from Amazon Verified Permissions — 1 operation(s) for updateidentitysource.
+- [Amazon Verified Permissions UpdatePolicy API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-updatepolicy-api/) — The UpdatePolicy API from Amazon Verified Permissions — 1 operation(s) for updatepolicy.
+- [Amazon Verified Permissions UpdatePolicyStore API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-updatepolicystore-api/) — The UpdatePolicyStore API from Amazon Verified Permissions — 1 operation(s) for updatepolicystore.
+- [Amazon Verified Permissions UpdatePolicyTemplate API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-updatepolicytemplate-api/) — The UpdatePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for updatepolicytemplate.
+- [Amazon Verified Permissions List Tags For Resource API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-list-tags-for-resource-api/) — The List Tags For Resource API from Amazon Verified Permissions — 1 operation(s) for list tags for resource.
+- [Amazon Verified Permissions Tag Resource API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-tag-resource-api/) — The Tag Resource API from Amazon Verified Permissions — 1 operation(s) for tag resource.
+- [Amazon Verified Permissions Untag Resource API](https://apis.io/apis/amazon-verified-permissions/amazon-verified-permissions-untag-resource-api/) — The Untag Resource API from Amazon Verified Permissions — 1 operation(s) for untag resource.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Amazon Verified Permissions API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-The Amazon Verified Permissions API provides programmatic access to manage policy stores, policies, policy templates, identity sources, and schemas. It enables fine-grained authorization using the Cedar policy language, supporting real-time authorization decisions for application resources.
+- [Amazon Verified Permissions Agentic Access](https://apis.io/agentic-access/amazon-verified-permissions/amazon-verified-permissions-agentic-access/)
 
-- **Human URL:** [https://aws.amazon.com/verified-permissions/](https://aws.amazon.com/verified-permissions/)
-- **Base URL:** `https://verifiedpermissions.amazonaws.com`
+#### JSON-LD (1)
 
-#### Tags
+Linked-data contexts for the provider's vocabulary.
 
-- Authorization
-- AWS
-- Cedar
-- Permissions
+- [Amazon Verified Permissions Context](https://apis.io/jsonld/amazon-verified-permissions/amazon-verified-permissions-context/)
 
-#### Properties
+#### Vocabulary (1)
 
-- [OpenAPI](openapi/amazon-verified-permissions-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/amazon-verified-permissions.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/amazon-verified-permissions.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/)
-- [API Reference](https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/)
-- [Getting Started](https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started.html)
-- [Pricing](https://aws.amazon.com/verified-permissions/pricing/)
-- [F A Q](https://aws.amazon.com/verified-permissions/faqs/)
+The provider's domain terms, defined.
 
-## Common Properties
+- [Amazon Verified Permissions Vocabulary](https://apis.io/vocabularies/amazon-verified-permissions/amazon-verified-permissions-vocabulary/)
 
-- [Portal](https://aws.amazon.com/)
+#### Examples (1)
+
+Example requests and responses.
+
+- [Amazon Verified Permissions Example](https://apis.io/examples/amazon-verified-permissions/amazon-verified-permissions-example/)
+
+#### Collections (35)
+
+Postman and Open Collection request collections.
+
+- [Amazon Verified Permissions](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions/)
+- [Amazon Verified Permissions BatchGetPolicy API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-batchgetpolicy-api/)
+- [Amazon Verified Permissions BatchGetPolicy BatchIsAuthorized API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-batchisauthorized-api/)
+- [Amazon Verified Permissions BatchGetPolicy BatchIsAuthorizedWithToken API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-batchisauthorizedwithtoken-api/)
+- [Amazon Verified Permissions BatchGetPolicy CreateIdentitySource API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-createidentitysource-api/)
+- [Amazon Verified Permissions BatchGetPolicy CreatePolicy API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-createpolicy-api/)
+- [Amazon Verified Permissions BatchGetPolicy CreatePolicyStore API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-createpolicystore-api/)
+- [Amazon Verified Permissions BatchGetPolicy CreatePolicyStoreAlias API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-createpolicystorealias-api/)
+- [Amazon Verified Permissions BatchGetPolicy CreatePolicyTemplate API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-createpolicytemplate-api/)
+- [Amazon Verified Permissions BatchGetPolicy DeleteIdentitySource API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-deleteidentitysource-api/)
+- [Amazon Verified Permissions BatchGetPolicy DeletePolicy API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-deletepolicy-api/)
+- [Amazon Verified Permissions BatchGetPolicy DeletePolicyStore API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-deletepolicystore-api/)
+- [Amazon Verified Permissions BatchGetPolicy DeletePolicyStoreAlias API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-deletepolicystorealias-api/)
+- [Amazon Verified Permissions BatchGetPolicy DeletePolicyTemplate API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-deletepolicytemplate-api/)
+- [Amazon Verified Permissions BatchGetPolicy GetIdentitySource API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-getidentitysource-api/)
+- [Amazon Verified Permissions BatchGetPolicy GetPolicy API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-getpolicy-api/)
+- [Amazon Verified Permissions BatchGetPolicy GetPolicyStore API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-getpolicystore-api/)
+- [Amazon Verified Permissions BatchGetPolicy GetPolicyStoreAlias API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-getpolicystorealias-api/)
+- [Amazon Verified Permissions BatchGetPolicy GetPolicyTemplate API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-getpolicytemplate-api/)
+- [Amazon Verified Permissions BatchGetPolicy GetSchema API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-getschema-api/)
+- [Amazon Verified Permissions BatchGetPolicy IsAuthorized API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-isauthorized-api/)
+- [Amazon Verified Permissions BatchGetPolicy IsAuthorizedWithToken API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-isauthorizedwithtoken-api/)
+- [Amazon Verified Permissions BatchGetPolicy ListIdentitySources API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-listidentitysources-api/)
+- [Amazon Verified Permissions BatchGetPolicy ListPolicies API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-listpolicies-api/)
+- [Amazon Verified Permissions BatchGetPolicy ListPolicyStoreAliases API](https://apis.io/collections/amazon-verified-permissions/open-amazon-verified-permissions-listpolicystorealiases-api/)
+- …and 10 more published on APIs.io
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Amazon Verified Permissions API Rules](https://apis.io/rules/amazon-verified-permissions/amazon-verified-permissions-spectral-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amazon Verified Permissions Domain Security](https://apis.io/security/amazon-verified-permissions/amazon-verified-permissions-domain-security/)
+- [Amazon Verified Permissions Trust Center](https://apis.io/security/amazon-verified-permissions/amazon-verified-permissions-trust-center/)
+- [Amazon Verified Permissions Vulnerability Disclosure](https://apis.io/security/amazon-verified-permissions/amazon-verified-permissions-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Amazon Verified Permissions Plans Pricing](https://apis.io/plans/amazon-verified-permissions/amazon-verified-permissions-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Amazon Verified Permissions Rate Limits](https://apis.io/rate-limits/amazon-verified-permissions/amazon-verified-permissions-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Amazon Verified Permissions Finops](https://apis.io/finops/amazon-verified-permissions/amazon-verified-permissions-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://aws.amazon.com/verified-permissions/)
 - [Documentation](https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/)
-- [Console](https://console.aws.amazon.com/verifiedpermissions/)
-- [Terms of Service](https://aws.amazon.com/service-terms/)
-- [Privacy Policy](https://aws.amazon.com/privacy/)
+- [Pricing](https://aws.amazon.com/verified-permissions/pricing/)
 - [Support](https://aws.amazon.com/premiumsupport/)
-- [Sign Up](https://signin.aws.amazon.com/signup?request_type=register)
-- [Login](https://aws.amazon.com/console/)
-- [Status Page](https://health.aws.amazon.com/health/status)
-- [GitHub Organization](https://github.com/aws)
-- [Spectral Rules](https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/rules/amazon-verified-permissions-spectral-rules.yml)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/vocabulary/amazon-verified-permissions-vocabulary.yaml)
-- [Features](undefined)
-- [Use Cases](undefined)
-- [Integrations](https://aws.amazon.com/partners/)
+- [Terms of service](https://aws.amazon.com/service-terms/)
+- [Privacy policy](https://aws.amazon.com/privacy/)
+- [GitHub](https://github.com/aws)
+- [Status](https://health.aws.amazon.com/health/status)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 50.7** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 38.9 |
+| Contract governance | 25.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 77.6 |
+
+**Agent readiness 15.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amazon-verified-permissions/](https://apis.io/providers/amazon-verified-permissions/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amazon Verified Permissions: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amazon-verified-permissions/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
