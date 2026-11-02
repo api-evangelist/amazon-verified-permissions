@@ -1,0 +1,104 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-09-20'
+method: searched
+source: https://aws.amazon.com/verified-permissions/pricing/
+sources:
+- https://aws.amazon.com/verified-permissions/pricing/
+provenance:
+  tool: planning/api-economics/harvest_pricing.py
+  run: 20260920T120546
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-09-20'
+published: true
+note: Same pricing for all Regions; pay-as-you-go per API call with tiered batch authorization pricing.
+plan_count: 5
+currency: USD
+plans:
+- name: Single Authorization Request
+  price_text: $0.000005 per API request
+  price: 5.0e-06
+  currency: USD
+  period: per-use
+  unit: API request
+- name: Batch authorization requests – First 40 million requests per month
+  price_text: $0.00015 per API request
+  price: 0.00015
+  currency: USD
+  period: per-use
+  unit: API request
+  included_quota: First 40 million requests per month
+- name: Batch authorization requests – Next 60 million requests per month
+  price_text: $0.000075 per API request
+  price: 7.5e-05
+  currency: USD
+  period: per-use
+  unit: API request
+  included_quota: Next 60 million requests per month
+- name: Batch authorization requests – More than 100 million requests per month
+  price_text: $0.00004 per API request
+  price: 4.0e-05
+  currency: USD
+  period: per-use
+  unit: API request
+  included_quota: More than 100 million requests per month
+- name: Policy management request
+  price_text: $0.00004 per policy management request
+  price: 4.0e-05
+  currency: USD
+  period: per-use
+  unit: policy management request
+rate_limit_statements:
+- There is no minimum number of requests that a customer must make to use Amazon Verified Permissions.
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - request
+  plans:
+  - name: Single Authorization Request
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Batch authorization requests – First 40 million requests per month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Batch authorization requests – Next 60 million requests per month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Batch authorization requests – More than 100 million requests per month
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
+  - name: Policy management request
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - other
