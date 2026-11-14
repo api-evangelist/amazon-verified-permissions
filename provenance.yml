@@ -5,9 +5,24 @@ artifacts:
   agentic-access/amazon-verified-permissions-agentic-access.yml:
     method: generated
     evidence: declared in the artifact
+  authentication/amazon-verified-permissions-authentication.yml:
+    method: derived
+    evidence: declared in the artifact
   capabilities/amazon-verified-permissions-capability-edges.yml:
     method: unknown
     evidence: no authorship recorded
+  certification/observations-2026-11-11.jsonl:
+    method: unknown
+    evidence: no authorship recorded
+  certification/status.yml:
+    method: unknown
+    evidence: no authorship recorded
+  changelog/amazon-verified-permissions-changelog.yml:
+    method: searched
+    evidence: declared in the artifact
+  cli/amazon-verified-permissions-cli.yml:
+    method: searched
+    evidence: declared in the artifact
   collections/amazon-verified-permissions-batchgetpolicy-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-verified-permissions-batchgetpolicy-api
@@ -218,6 +233,18 @@ artifacts:
   collections/amazon-verified-permissions.postman_collection.json:
     method: derived
     evidence: openapi/amazon-verified-permissions
+  conformance/amazon-verified-permissions-conformance.yml:
+    method: derived
+    evidence: declared in the artifact
+  conventions/amazon-verified-permissions-conventions.yml:
+    method: derived
+    evidence: declared in the artifact
+  data-model/amazon-verified-permissions-data-model.yml:
+    method: derived
+    evidence: declared in the artifact
+  errors/amazon-verified-permissions-problem-types.yml:
+    method: derived
+    evidence: declared in the artifact
   examples/amazon-verified-permissions-example.json:
     method: unknown
     evidence: no authorship recorded
@@ -227,6 +254,9 @@ artifacts:
   front-door-ai/2026-09-17.yml:
     method: unknown
     evidence: no authorship recorded
+  hosts/amazon-verified-permissions-hosts.yml:
+    method: derived
+    evidence: declared in the artifact
   integrations/_index.yml:
     method: generated
     evidence: carries an API Evangelist house phrase
@@ -236,10 +266,214 @@ artifacts:
   json-ld/amazon-verified-permissions-context.jsonld:
     method: unknown
     evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-batch-get-policy-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-batch-get-policy-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-batch-is-authorized-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-batch-is-authorized-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-batch-is-authorized-with-token-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-batch-is-authorized-with-token-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-identity-source-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-identity-source-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-store-alias-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-store-alias-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-store-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-store-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-template-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-create-policy-template-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-identity-source-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-identity-source-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-store-alias-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-store-alias-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-store-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-store-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-template-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-delete-policy-template-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-identity-source-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-identity-source-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-store-alias-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-store-alias-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-store-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-store-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-template-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-policy-template-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-schema-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-get-schema-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-is-authorized-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-is-authorized-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-is-authorized-with-token-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-is-authorized-with-token-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-identity-sources-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-identity-sources-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policies-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policies-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policy-store-aliases-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policy-store-aliases-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policy-stores-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policy-stores-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policy-templates-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-policy-templates-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-tags-for-resource-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-list-tags-for-resource-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-put-schema-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-put-schema-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-tag-resource-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-tag-resource-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-untag-resource-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-untag-resource-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-identity-source-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-identity-source-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-policy-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-policy-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-policy-store-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-policy-store-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-policy-template-input-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-verified-permissions-update-policy-template-output-schema.json:
+    method: unknown
+    evidence: no authorship recorded
   kin/checks-2026-10-23T222754.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
-  kin/checks-2026-11-02T082323.yml:
+  kin/checks-2026-11-06T143934.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-23T000603.yml:
@@ -308,6 +542,21 @@ artifacts:
   kin/score-2026-11-02T082323.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-11-06T143934.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  lifecycle/amazon-verified-permissions-lifecycle.yml:
+    method: searched
+    evidence: declared in the artifact
+  llms/amazon-verified-permissions-llms-provenance.yml:
+    method: unknown
+    evidence: no authorship recorded
+  llms/amazon-verified-permissions-llms.txt:
+    method: unknown
+    evidence: no authorship recorded
+  mcp/amazon-verified-permissions-mcp.yml:
+    method: derived
+    evidence: declared in the artifact
   openapi/amazon-verified-permissions-batchgetpolicy-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -410,10 +659,22 @@ artifacts:
   openapi/amazon-verified-permissions-updatepolicytemplate-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  packages/amazon-verified-permissions-packages.yml:
+    method: searched
+    evidence: declared in the artifact
+  patterns/amazon-verified-permissions-patterns.yml:
+    method: derived
+    evidence: declared in the artifact
   plans/amazon-verified-permissions-plans-pricing.yml:
     method: searched
     evidence: declared in the artifact
+  privacy/amazon-verified-permissions-privacy-policy.yml:
+    method: harvested
+    evidence: declared in the artifact
   rate-limits/amazon-verified-permissions-rate-limits.yml:
+    method: searched
+    evidence: declared in the artifact
+  rules/amazon-verified-permissions-rules.yml:
     method: generated
     evidence: declared in the artifact
   rules/amazon-verified-permissions-spectral-rules.yml:
@@ -428,12 +689,40 @@ artifacts:
   security/amazon-verified-permissions-vulnerability-disclosure.yml:
     method: searched
     evidence: declared in the artifact
+  skills/_index.yml:
+    method: generated
+    evidence: declared in the artifact
+  skills/amazon-verified-permissions-authorize-request.md:
+    method: generated
+    evidence: declared in the artifact
+  skills/amazon-verified-permissions-set-up-policy-store.md:
+    method: generated
+    evidence: declared in the artifact
   sla/amazon-verified-permissions-sla.yml:
     method: generated
     evidence: declared in the artifact
   smithy/verifiedpermissions-2021-12-01.json:
+    method: harvested
+    evidence: byte-identical to https://raw.githubusercontent.com/aws/api-models-aws/3cd98287b471c106254abd89279cc87308d38bfd/models/verifiedpermissions/service/2021-12-01/verifiedpermissions-2021-12-01.json
+      (sha256 26caa56d6911, fetched 2026-11-11T21:16:11+00:00)
+  terms/amazon-verified-permissions-terms-of-service.yml:
+    method: harvested
+    evidence: declared in the artifact
+  vendors/amazon-verified-permissions-vendors.yml:
     method: unknown
     evidence: no authorship recorded
   vocabulary/amazon-verified-permissions-vocabulary.yaml:
+    method: unknown
+    evidence: no authorship recorded
+  vocabulary/amazon-verified-permissions-vocabulary.yml:
+    method: derived
+    evidence: declared in the artifact
+  well-known/amazon-verified-permissions-midway-auth-openid-configuration.json:
+    method: unknown
+    evidence: no authorship recorded
+  well-known/amazon-verified-permissions-security.txt:
+    method: unknown
+    evidence: no authorship recorded
+  well-known/amazon-verified-permissions-well-known.yml:
     method: unknown
     evidence: no authorship recorded

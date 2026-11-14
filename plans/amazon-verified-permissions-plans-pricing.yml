@@ -2,6 +2,7 @@
 generated: '2026-09-20'
 method: searched
 source: https://aws.amazon.com/verified-permissions/pricing/
+name: Amazon Verified Permissions API Plans
 sources:
 - https://aws.amazon.com/verified-permissions/pricing/
 provenance:
@@ -55,7 +56,7 @@ plans:
 rate_limit_statements:
 - There is no minimum number of requests that a customer must make to use Amazon Verified Permissions.
 x-canonical:
-  generated: '2026-11-06'
+  generated: '2026-11-13'
   vocabulary: engine/economics/plans-canonical.yml
   models:
   - hybrid

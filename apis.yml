@@ -1,9 +1,8 @@
 aid: amazon-verified-permissions
 name: Amazon Verified Permissions
-description: >-
-  Amazon Verified Permissions is a scalable, fine-grained permissions management and authorization service for the
-  applications you build. Using Cedar, an expressive and analyzable open-source policy language, it helps developers
-  build secure applications faster by externalizing authorization and centralizing policy management.
+description: Amazon Verified Permissions is a scalable, fine-grained permissions management and authorization service for the applications you
+  build. Using Cedar, an expressive and analyzable open-source policy language, it helps developers build secure applications faster by externalizing
+  authorization and centralizing policy management.
 type: Index
 deliveryModel:
   model: saas
@@ -24,27 +23,144 @@ accessModel:
   try_now: false
   public: false
   label: Paid
-  confidence: low
+  confidence: high
   source:
   - plans
+  - authentication
+  - rate-limits
   - security
-  generated: '2026-11-06'
+  generated: '2026-11-13'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-verified-permissions.png
 tags:
-  - Authorization
-  - Amazon Web Services
-  - Permissions
-  - Security
+- Authorization
+- Amazon Web Services
+- Permissions
+- Security
 tags_raw:
-  - Authorization
-  - AWS
-  - Permissions
-  - Security
+- Authorization
+- AWS
+- Permissions
+- Security
 url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml
 created: '2026-03-16'
 modified: '2026-05-19'
 specificationVersion: '0.23'
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+common:
+- type: Spectral
+  url: rules/amazon-verified-permissions-spectral-rules.yml
+- type: Spectral
+  url: rules/amazon-verified-permissions-rules.yml
+- type: JSONLD
+  url: json-ld/amazon-verified-permissions-context.jsonld
+- type: Vocabulary
+  url: vocabulary/amazon-verified-permissions-vocabulary.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: DataModel
+  url: data-model/amazon-verified-permissions-data-model.yml
+- type: CLI
+  url: cli/amazon-verified-permissions-cli.yml
+- type: ChangeLog
+  url: changelog/amazon-verified-permissions-changelog.yml
+- type: Idempotency
+  url: conventions/amazon-verified-permissions-conventions.yml
+- type: Conventions
+  url: conventions/amazon-verified-permissions-conventions.yml
+- type: Compliance
+  url: https://aws.amazon.com/compliance/
+- type: Lifecycle
+  url: lifecycle/amazon-verified-permissions-lifecycle.yml
+- type: ErrorCatalog
+  url: errors/amazon-verified-permissions-problem-types.yml
+- type: Conformance
+  url: conformance/amazon-verified-permissions-conformance.yml
+- type: LLMsTxt
+  url: llms/amazon-verified-permissions-llms.txt
+- type: SecurityTxt
+  url: well-known/amazon-verified-permissions-security.txt
+- type: WellKnown
+  url: well-known/amazon-verified-permissions-well-known.yml
+- type: Hosts
+  url: hosts/amazon-verified-permissions-hosts.yml
+- type: Vendors
+  url: vendors/amazon-verified-permissions-vendors.yml
+- type: SDKs
+  url: packages/amazon-verified-permissions-packages.yml
+- type: Packages
+  url: packages/amazon-verified-permissions-packages.yml
+- type: Security
+  url: https://aws.amazon.com/security/?nc2=h_dsc_aa_sec
+- type: Newsroom
+  url: https://aws.amazon.com/media/?nc2=h_sol_ind_med
+- type: GettingStarted
+  url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/getting-started-first-policy-store.html
+- type: Authentication
+  url: authentication/amazon-verified-permissions-authentication.yml
+- type: RateLimits
+  url: rate-limits/amazon-verified-permissions-rate-limits.yml
+- type: FinOps
+  url: finops/amazon-verified-permissions-finops.yml
+- type: Pricing
+  url: https://aws.amazon.com/verified-permissions/pricing/
+- type: Plans
+  url: plans/amazon-verified-permissions-plans-pricing.yml
+- type: CapabilityMap
+  url: capabilities/amazon-verified-permissions-capability-edges.yml
+  name: Amazon Verified Permissions Business Capability Map
+- type: AgenticAccess
+  url: agentic-access/amazon-verified-permissions-agentic-access.yml
+- type: TrustCenter
+  url: security/amazon-verified-permissions-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/amazon-verified-permissions-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/amazon-verified-permissions-domain-security.yml
+- type: Portal
+  url: https://aws.amazon.com/
+- type: Website
+  url: https://aws.amazon.com/verified-permissions/
+- type: Documentation
+  url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
+- type: Console
+  url: https://console.aws.amazon.com/verifiedpermissions/
+- type: TermsOfService
+  url: https://aws.amazon.com/service-terms/
+- type: PrivacyPolicy
+  url: https://aws.amazon.com/privacy/
+- type: Support
+  url: https://aws.amazon.com/premiumsupport/
+- type: Signup
+  url: https://signin.aws.amazon.com/signup?request_type=register
+- type: Login
+  url: https://aws.amazon.com/console/
+- type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+- type: GitHubOrganization
+  url: https://github.com/aws
+- type: APIReference
+  url: https://docs.aws.amazon.com/verifiedpermissions/latest/apireference/
+- type: Vocabulary
+  url: vocabulary/amazon-verified-permissions-vocabulary.yaml
+- type: Features
+  data:
+  - name: Automation
+    description: Automate operational tasks with Amazon Verified Permissions.
+  - name: API Access
+    description: Programmatic access to Amazon Verified Permissions resources.
+- type: UseCases
+  data:
+  - name: Cloud Operations
+    description: Use Amazon Verified Permissions to manage and automate cloud operations.
+- type: Integrations
+  url: https://aws.amazon.com/partners/
+- type: UsageTerms
+  url: terms/amazon-verified-permissions-terms-of-service.yml
+- type: DataProcessing
+  url: privacy/amazon-verified-permissions-privacy-policy.yml
 apis:
 - aid: amazon-verified-permissions:amazon-verified-permissions-batchgetpolicy-api
   name: Amazon Verified Permissions BatchGetPolicy API
@@ -67,6 +183,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-get-policy-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-get-policy-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-batchisauthorized-api
   name: Amazon Verified Permissions BatchIsAuthorized API
   description: >-
@@ -88,6 +208,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-is-authorized-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-is-authorized-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-batchisauthorizedwithtoken-api
   name: Amazon Verified Permissions BatchIsAuthorizedWithToken API
   description: >-
@@ -109,6 +233,11 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-is-authorized-with-token-input-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-verified-permissions-batch-is-authorized-with-token-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-createidentitysource-api
   name: Amazon Verified Permissions CreateIdentitySource API
   description: >-
@@ -130,6 +259,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-identity-source-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-identity-source-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-createpolicy-api
   name: Amazon Verified Permissions CreatePolicy API
   description: The CreatePolicy API from Amazon Verified Permissions — 1 operation(s) for createpolicy.
@@ -150,6 +283,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-createpolicystore-api
   name: Amazon Verified Permissions CreatePolicyStore API
   description: >-
@@ -171,6 +308,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-store-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-store-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-createpolicystorealias-api
   name: Amazon Verified Permissions CreatePolicyStoreAlias API
   description: >-
@@ -192,6 +333,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-store-alias-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-store-alias-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-createpolicytemplate-api
   name: Amazon Verified Permissions CreatePolicyTemplate API
   description: >-
@@ -213,6 +358,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-template-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-create-policy-template-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-deleteidentitysource-api
   name: Amazon Verified Permissions DeleteIdentitySource API
   description: >-
@@ -234,6 +383,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-identity-source-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-identity-source-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicy-api
   name: Amazon Verified Permissions DeletePolicy API
   description: The DeletePolicy API from Amazon Verified Permissions — 1 operation(s) for deletepolicy.
@@ -254,6 +407,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicystore-api
   name: Amazon Verified Permissions DeletePolicyStore API
   description: >-
@@ -275,6 +432,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-store-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-store-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicystorealias-api
   name: Amazon Verified Permissions DeletePolicyStoreAlias API
   description: >-
@@ -296,6 +457,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-store-alias-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-store-alias-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-deletepolicytemplate-api
   name: Amazon Verified Permissions DeletePolicyTemplate API
   description: >-
@@ -317,6 +482,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-template-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-delete-policy-template-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-getidentitysource-api
   name: Amazon Verified Permissions GetIdentitySource API
   description: >-
@@ -338,6 +507,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-identity-source-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-identity-source-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-getpolicy-api
   name: Amazon Verified Permissions GetPolicy API
   description: The GetPolicy API from Amazon Verified Permissions — 1 operation(s) for getpolicy.
@@ -358,6 +531,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-getpolicystore-api
   name: Amazon Verified Permissions GetPolicyStore API
   description: >-
@@ -379,6 +556,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-store-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-store-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-getpolicystorealias-api
   name: Amazon Verified Permissions GetPolicyStoreAlias API
   description: >-
@@ -400,6 +581,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-store-alias-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-store-alias-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-getpolicytemplate-api
   name: Amazon Verified Permissions GetPolicyTemplate API
   description: >-
@@ -421,6 +606,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-template-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-policy-template-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-getschema-api
   name: Amazon Verified Permissions GetSchema API
   description: The GetSchema API from Amazon Verified Permissions — 1 operation(s) for getschema.
@@ -441,6 +630,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-schema-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-get-schema-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-isauthorized-api
   name: Amazon Verified Permissions IsAuthorized API
   description: The IsAuthorized API from Amazon Verified Permissions — 1 operation(s) for isauthorized.
@@ -461,6 +654,19 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-is-authorized-with-token-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-is-authorized-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-is-authorized-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-is-authorized-input-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-verified-permissions-batch-is-authorized-with-token-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-batch-is-authorized-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-isauthorizedwithtoken-api
   name: Amazon Verified Permissions IsAuthorizedWithToken API
   description: >-
@@ -482,6 +688,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-is-authorized-with-token-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-is-authorized-with-token-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-listidentitysources-api
   name: Amazon Verified Permissions ListIdentitySources API
   description: >-
@@ -503,6 +713,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-identity-sources-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-identity-sources-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-listpolicies-api
   name: Amazon Verified Permissions ListPolicies API
   description: The ListPolicies API from Amazon Verified Permissions — 1 operation(s) for listpolicies.
@@ -523,6 +737,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policies-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policies-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-listpolicystorealiases-api
   name: Amazon Verified Permissions ListPolicyStoreAliases API
   description: >-
@@ -544,6 +762,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policy-store-aliases-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policy-store-aliases-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-listpolicystores-api
   name: Amazon Verified Permissions ListPolicyStores API
   description: >-
@@ -565,6 +787,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policy-stores-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policy-stores-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-listpolicytemplates-api
   name: Amazon Verified Permissions ListPolicyTemplates API
   description: >-
@@ -586,6 +812,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policy-templates-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-policy-templates-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-putschema-api
   name: Amazon Verified Permissions PutSchema API
   description: The PutSchema API from Amazon Verified Permissions — 1 operation(s) for putschema.
@@ -606,6 +836,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-put-schema-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-put-schema-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-updateidentitysource-api
   name: Amazon Verified Permissions UpdateIdentitySource API
   description: >-
@@ -627,6 +861,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-identity-source-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-identity-source-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-updatepolicy-api
   name: Amazon Verified Permissions UpdatePolicy API
   description: The UpdatePolicy API from Amazon Verified Permissions — 1 operation(s) for updatepolicy.
@@ -647,6 +885,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-policy-output-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-policy-input-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-updatepolicystore-api
   name: Amazon Verified Permissions UpdatePolicyStore API
   description: >-
@@ -668,6 +910,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-policy-store-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-policy-store-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-updatepolicytemplate-api
   name: Amazon Verified Permissions UpdatePolicyTemplate API
   description: >-
@@ -689,6 +935,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-policy-template-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-update-policy-template-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-list-tags-for-resource-api
   name: Amazon Verified Permissions List Tags For Resource API
   description: >-
@@ -711,6 +961,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-tags-for-resource-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-list-tags-for-resource-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-tag-resource-api
   name: Amazon Verified Permissions Tag Resource API
   description: The Tag Resource API from Amazon Verified Permissions — 1 operation(s) for tag resource.
@@ -731,6 +985,10 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-tag-resource-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-tag-resource-output-schema.json
 - aid: amazon-verified-permissions:amazon-verified-permissions-untag-resource-api
   name: Amazon Verified Permissions Untag Resource API
   description: >-
@@ -752,77 +1010,23 @@ apis:
     url: https://aws.amazon.com/verified-permissions/pricing/
   - type: FAQ
     url: https://aws.amazon.com/verified-permissions/faqs/
-common:
-  - type: RateLimits
-    url: rate-limits/amazon-verified-permissions-rate-limits.yml
-  - type: FinOps
-    url: finops/amazon-verified-permissions-finops.yml
-  - type: Pricing
-    url: https://aws.amazon.com/verified-permissions/pricing/
-  - type: Plans
-    url: plans/amazon-verified-permissions-plans-pricing.yml
-  - type: CapabilityMap
-    url: capabilities/amazon-verified-permissions-capability-edges.yml
-    name: Amazon Verified Permissions Business Capability Map
-  - type: AgenticAccess
-    url: agentic-access/amazon-verified-permissions-agentic-access.yml
-  - type: TrustCenter
-    url: security/amazon-verified-permissions-trust-center.yml
-  - type: VulnerabilityDisclosure
-    url: security/amazon-verified-permissions-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/amazon-verified-permissions-domain-security.yml
-  - type: Portal
-    url: https://aws.amazon.com/
-  - type: Website
-    url: https://aws.amazon.com/verified-permissions/
-  - type: Documentation
-    url: https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/
-  - type: Console
-    url: https://console.aws.amazon.com/verifiedpermissions/
-  - type: TermsOfService
-    url: https://aws.amazon.com/service-terms/
-  - type: PrivacyPolicy
-    url: https://aws.amazon.com/privacy/
-  - type: Support
-    url: https://aws.amazon.com/premiumsupport/
-  - type: Signup
-    url: https://signin.aws.amazon.com/signup?request_type=register
-  - type: Login
-    url: https://aws.amazon.com/console/
-  - type: StatusPage
-    url: https://health.aws.amazon.com/health/status
-  - type: GitHubOrganization
-    url: https://github.com/aws
-  - type: SpectralRules
-    url: >-
-      https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/rules/amazon-verified-permissions-spectral-rules.yml
-  - type: Vocabulary
-    url: >-
-      https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/vocabulary/amazon-verified-permissions-vocabulary.yaml
-  - type: Features
-    data:
-      - name: Automation
-        description: Automate operational tasks with Amazon Verified Permissions.
-      - name: API Access
-        description: Programmatic access to Amazon Verified Permissions resources.
-  - type: UseCases
-    data:
-      - name: Cloud Operations
-        description: Use Amazon Verified Permissions to manage and automate cloud operations.
-  - type: Integrations
-    url: https://aws.amazon.com/partners/
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-untag-resource-input-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-verified-permissions-untag-resource-output-schema.json
 integrations:
-  - name: Partner Programs
-  - name: Resources
-  - name: Success Stories
-  - name: Work with an AWS Partner
-  - name: AWS Marketplace
-  - name: AWS Partner Central
-  - name: Partner Paths
-  - name: co-sell with AWS
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- name: Partner Programs
+- name: Resources
+- name: Success Stories
+- name: Work with an AWS Partner
+- name: AWS Marketplace
+- name: AWS Partner Central
+- name: Partner Paths
+- name: co-sell with AWS
 x-parent: amazon-web-services
 x-relationship: product
+x-enrichment:
+  date: '2026-11-11'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v6
